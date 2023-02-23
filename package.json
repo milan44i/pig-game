@@ -1,0 +1,25 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "dice game",
+  "default": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/milan44i/pig-game.git"
+  },
+  "author": "Milan Stankovic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/milan44i/pig-game/issues"
+  },
+  "homepage": "https://github.com/milan44i/pig-game#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.3"
+  }
+}
