@@ -58,8 +58,6 @@ btnRoll.addEventListener('click', () => {
   if (playing) {
     const number = generateRandNum1to6();
     diceEl.src = `https://raw.githubusercontent.com/milan44i/pig-game/master/dice-${number}.png`;
-    // diceEl.src = `dice-${number}.png`;
-    // diceEl.src = `https://github.com/milan44i/pig-game/blob/master/dice-${number}.png`;
     if (diceEl.classList.contains('hidden')) diceEl.classList.remove('hidden');
     if (number === 1) {
       changePlayer();
